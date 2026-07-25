@@ -1,0 +1,45 @@
+{"level":"INFO","message":"[5:41:43.874 PM]: Creating connection pool with provided options"}
+{"level":"INFO","message":"[5:41:43.877 PM]: Connection pool object created successfully"}
+{"level":"INFO","message":"[5:41:43.877 PM]: Creating new connection object"}
+{"level":"INFO","message":"[6:24:50.730 PM]: Creating connection pool with provided options"}
+{"level":"INFO","message":"[6:24:50.733 PM]: Connection pool object created successfully"}
+{"level":"INFO","message":"[6:24:50.734 PM]: Creating new connection object"}
+{"level":"INFO","message":"[6:43:44.918 PM]: Creating connection pool with provided options"}
+{"level":"INFO","message":"[6:43:44.921 PM]: Connection pool object created successfully"}
+{"level":"INFO","message":"[6:43:44.922 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:46:01.201 PM]: Creating connection pool with provided options"}
+{"level":"INFO","message":"[9:46:01.203 PM]: Connection pool object created successfully"}
+{"level":"INFO","message":"[9:46:01.204 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:23:15.338 PM]: Creating connection pool with provided options"}
+{"level":"INFO","message":"[10:23:15.340 PM]: Connection pool object created successfully"}
+{"level":"INFO","message":"[10:23:15.340 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:58:33.905 PM]: Creating connection pool with provided options"}
+{"level":"INFO","message":"[10:58:33.907 PM]: Connection pool object created successfully"}
+{"level":"INFO","message":"[10:58:33.908 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:58:33.911 PM]: Creating Connection[id: 8624b92f-57cb-464b-98c2-8f8a3cba5a99] with host: BGREAFR-IK87096.snowflakecomputing.com.snowflakecomputing.com, account: BGREAFR-IK87096, accessUrl: https://BGREAFR-IK87096.snowflakecomputing.com.snowflakecomputing.com, user: INSIGHTOS_APP_RUNTIME_USER, role: INSIGHTOS_APP_RUNTIME, database: INSIGHTOS_DB, schema: SECURITY, warehouse: INSIGHTOS_WH_INTERACTIVE, proxy was not configured, password is not provided, region: snowflakecomputing.com, authenticator: SNOWFLAKE_JWT, "}
+{"level":"INFO","message":"[10:58:33.911 PM]: Connection[id: 8624b92f-57cb-464b-98c2-8f8a3cba5a99] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 3.1.0, retry timeout: 300, private key path: /Users/blue/keys/insightos/rsa_key.p8, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[10:58:33.911 PM]: Connection[id: 8624b92f-57cb-464b-98c2-8f8a3cba5a99] - connection object created successfully."}
+{"level":"INFO","message":"[10:58:33.912 PM]: Connection[id: 8624b92f-57cb-464b-98c2-8f8a3cba5a99] - async connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[10:58:33.912 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[10:58:33.914 PM]: No client config detected."}
+{"level":"INFO","message":"[10:58:33.914 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[10:58:33.914 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"ERROR","message":"[10:58:33.924 PM]: Connection[id: 8624b92f-57cb-464b-98c2-8f8a3cba5a99] - failed during authentication. Error: [Error: ENOENT: no such file or directory, open '/Users/blue/keys/insightos/rsa_key.p8'] {\n  errno: -2,\n  code: 'ENOENT',\n  syscall: 'open',\n  path: '/Users/blue/keys/insightos/rsa_key.p8'\n}"}
+{"level":"ERROR","message":"[10:58:33.925 PM]: Connection[id: 8624b92f-57cb-464b-98c2-8f8a3cba5a99] - connection failed after 13.09 milliseconds. Error: ENOENT: no such file or directory, open '/Users/blue/keys/insightos/rsa_key.p8'"}
+{"level":"ERROR","message":"[10:58:33.925 PM]: Connection[id: 8624b92f-57cb-464b-98c2-8f8a3cba5a99] - Unable to connect. Error: ENOENT: no such file or directory, open '/Users/blue/keys/insightos/rsa_key.p8'"}
+{"level":"ERROR","message":"[10:58:33.925 PM]: Connection pool factory creation failed: ENOENT: no such file or directory, open '/Users/blue/keys/insightos/rsa_key.p8'"}
+{"level":"INFO","message":"[1:31:25.391 AM]: Creating connection pool with provided options"}
+{"level":"INFO","message":"[1:31:25.393 AM]: Connection pool object created successfully"}
+{"level":"INFO","message":"[1:31:25.394 AM]: Creating new connection object"}
+{"level":"INFO","message":"[1:31:25.396 AM]: Creating Connection[id: 04bff367-8a0c-40a8-9866-ceb5177058a3] with host: BGREAFR-IK87096.snowflakecomputing.com.snowflakecomputing.com, account: BGREAFR-IK87096, accessUrl: https://BGREAFR-IK87096.snowflakecomputing.com.snowflakecomputing.com, user: INSIGHTOS_APP_RUNTIME_USER, role: INSIGHTOS_APP_RUNTIME, database: INSIGHTOS_DB, schema: SECURITY, warehouse: INSIGHTOS_WH_INTERACTIVE, proxy was not configured, password is not provided, region: snowflakecomputing.com, authenticator: SNOWFLAKE_JWT, "}
+{"level":"INFO","message":"[1:31:25.397 AM]: Connection[id: 04bff367-8a0c-40a8-9866-ceb5177058a3] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 3.1.0, retry timeout: 300, private key path: /Users/blue/keys/insightos/snowflake_rsa_key.p8, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[1:31:25.397 AM]: Connection[id: 04bff367-8a0c-40a8-9866-ceb5177058a3] - connection object created successfully."}
+{"level":"INFO","message":"[1:31:25.398 AM]: Connection[id: 04bff367-8a0c-40a8-9866-ceb5177058a3] - async connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[1:31:25.398 AM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[1:31:25.399 AM]: No client config detected."}
+{"level":"INFO","message":"[1:31:25.400 AM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[1:31:25.400 AM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[1:31:25.405 AM]: Connection[id: 04bff367-8a0c-40a8-9866-ceb5177058a3] - authentication successful using: SNOWFLAKE_JWT"}
+{"level":"ERROR","message":"[1:34:38.714 AM]: Connection[id: 04bff367-8a0c-40a8-9866-ceb5177058a3] - connection failed after 193318.19 milliseconds. Error: Hostname/IP does not match certificate's altnames: Host: bgreafr-ik87096.snowflakecomputing.com.snowflakecomputing.com. is not in the cert's altnames: DNS:*.global.snowflakecomputing.com, DNS:*.privatelink.snowflakecomputing.com, DNS:*.prod3.us-west-2.aws.snowflakecomputing.com, DNS:*.prod3.us-west-2.snowflakecomputing.com, DNS:*.snowflakecomputing.com, DNS:*.us-west-2.aws.privatelink.sn"}
+{"level":"ERROR","message":"[1:34:38.716 AM]: Connection[id: 04bff367-8a0c-40a8-9866-ceb5177058a3] - Unable to connect. Error: Hostname/IP does not match certificate's altnames: Host: bgreafr-ik87096.snowflakecomputing.com.snowflakecomputing.com. is not in the cert's altnames: DNS:*.global.snowflakecomputing.com, DNS:*.privatelink.snowflakecomputing.com, DNS:*.prod3.us-west-2.aws.snowflakecomputing.com, DNS:*.prod3.us-west-2.snowflakecomputing.com, DNS:*.snowflakecomputing.com, DNS:*.us-west-2.aws.privatelink.snowflakecomputing.com, DNS:*.u"}
+{"level":"ERROR","message":"[1:34:38.716 AM]: Connection pool factory creation failed: Hostname/IP does not match certificate's altnames: Host: bgreafr-ik87096.snowflakecomputing.com.snowflakecomputing.com. is not in the cert's altnames: DNS:*.global.snowflakecomputing.com, DNS:*.privatelink.snowflakecomputing.com, DNS:*.prod3.us-west-2.aws.snowflakecomputing.com, DNS:*.prod3.us-west-2.snowflakecomputing.com, DNS:*.snowflakecomputing.com, DNS:*.us-west-2.aws.privatelink.snowflakecomputing.com, DNS:*.us-west-2.aws.snowflakecomputing.com, DNS"}

@@ -54,12 +54,12 @@ export async function resumeRegistration(): Promise<
 
   const { data: existingMembership } = await supabase
     .from('workspace_members')
-    .select('workspace_id')
+    .select('workspace_id, workspaces(id)')
     .eq('user_id', user.id)
     .limit(1)
     .maybeSingle();
 
-  if (existingMembership) {
+  if (existingMembership?.workspaces) {
     redirect('/dashboard');
   }
 
